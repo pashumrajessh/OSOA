@@ -1,0 +1,23 @@
+download keystore.jks and truststore.jks from the following location
+
+/u01/data/domains/SOAOCI02_domain/config/tnsadmin
+
+copy keystore and trust store passwords from  
+
+$DOMAIN_HOME/config/fmwconfig/jps-config.xml
+
+truststore pwd:c8b2ab546f45af4fe2e923074973f1b4
+
+keystore_pwd:c8b2ab546f45af4fe2e923074973f1b4
+
+locate jps-config.xml in local jdeveloper and mention the location of 
+keystore file
+ 
+file:///C:/Oracle/Middleware/Oracle_Home/oracle_common/modules/oracle.jps_12.1.3/domain_config/wls/jps-config-jse.xml
+
+file:///C:/Oracle/Middleware/Oracle_Home/oracle_common/modules/oracle.jps_12.1.3/domain_config/wls/jps-config.xml
+
+file:///C:/Oracle/Middleware/Oracle_Home/oracle_common/modules/oracle.jps_12.1.3/domain_config/jse/jps-config.xml
+
+restart jdevloper and try test connection.
+
